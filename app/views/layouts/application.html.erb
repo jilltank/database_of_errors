@@ -9,7 +9,13 @@
 </head>
 <body>
 
+  <a class="logo pull-left" href="<%= root_path %>">
+    <%= image_tag "cool-shakespeare-thumb.png", height: "50px" %>
+  </a>
+
+<div class="container">
 <%= yield %>
+</div>
 
 </body>
 </html>
