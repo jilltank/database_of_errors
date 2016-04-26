@@ -15,14 +15,26 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Marmelad);
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore);
 
 
 body{
+	background: url(<%= asset_path 'errors-quote-trans.png' %>);
+	background-size: cover;
 	font-family: 'Marmelad', sans-serif;
+	color: #2B2D42;
+/*	background-color: #EDF2F4;*/
 }
 a:hover{
 	background-color: transparent;
 }
 .logo{
 	padding: 20px;
+}
+.errors{
+	padding-top: 100px;
+}
+h1{
+	font-size: 50px;
 }
